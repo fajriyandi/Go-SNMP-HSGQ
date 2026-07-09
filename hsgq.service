@@ -1,0 +1,16 @@
+[Unit]
+Description=HSGQ OLT SNMP Monitoring API
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/root/hsgq/hsgq
+EnvironmentFile=/root/hsgq/hsgq/.env
+ExecStart=/root/hsgq/hsgq/hsgq
+Restart=always
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
