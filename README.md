@@ -1,6 +1,6 @@
-# hsgq OLT SNMP REST API
+# HSGQ OLT SNMP REST API
 
-REST API untuk monitoring OLT **hsgq-G04ID** dan **hsgq-G02ID** via SNMP.
+REST API untuk monitoring OLT **HSGQ-G04ID** dan **HSGQ-G02ID** via SNMP.
 
 ## Quick Start
 
@@ -151,4 +151,3 @@ cp .env.example olt2/.env
 - Serial di-decode dari hex (4 byte vendor + 4 byte UID)
 - Server bind **localhost only** (127.0.0.1)
 - Cache auto-refresh setiap 5 menit
-- Tidak ada hardcoded sensitive data
