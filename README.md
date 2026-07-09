@@ -15,7 +15,6 @@ nano .env
 | File | Deskripsi |
 |---|---|
 | `hsgq` | Binary executable |
-| `.env` | Config (wajib, gitignored) |
 | `env.example` | Template config |
 | `start.sh` | Startup script |
 | `hsgq.service` | Systemd unit file |
