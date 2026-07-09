@@ -5,7 +5,7 @@ REST API untuk monitoring OLT **hsgq-G04ID** dan **hsgq-G02ID** via SNMP.
 ## Quick Start
 
 ```bash
-cp .env.example .env
+cp env.example .env
 nano .env
 ./start.sh
 ```
